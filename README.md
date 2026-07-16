@@ -19,3 +19,5 @@ I build online stores from the theme to the backend: custom **Liquid** themes (O
 > Most of my professional Shopify work is in private client repositories. The public repos below are personal and academic projects (games, machine learning, tools).
 
 📫 **gonzalezmiguel2000@gmail.com** · [LinkedIn](https://www.linkedin.com/in/miguel-angel-gonzalez-76a179168)
+
+<!-- profile readme -->
