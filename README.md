@@ -4,7 +4,8 @@
 
 <h3>Shopify Developer · E-commerce Automation Engineer</h3>
 
-<p>I build online stores from the theme to the backend.<br>
+<p>I build online stores from the theme to the backend,<br>
+and the automation that keeps them running.<br>
 📍 Medellín, Colombia</p>
 
 <p>
@@ -19,12 +20,13 @@
 
 ## 👨‍💻 About me
 
-I build custom **Liquid** themes (Online Store 2.0), embedded **Shopify apps**, and the automation behind large product catalogs: scraping, bulk imports, price updates, and API integrations.
+I build custom **Liquid** themes (Online Store 2.0), **embedded and extension-only Shopify apps**, and the automation behind large product catalogs: scraping, bulk imports, price updates, and API integrations.
 
-Most of my work is in **trading card game (TCG)** stores, where catalogs have thousands of products and need a lot of automation.
+Most of my work is in **trading card game (TCG)** stores, where catalogs have thousands of products and need a lot of automation. I also run a live store as webmaster and host my own backend services.
 
 - 🛍️ Currently building a custom theme and an embedded app for a Yu-Gi-Oh! store
 - ⚙️ I like turning manual catalog work into automated pipelines
+- 🤖 I build bots and local-LLM assistants that plug into real business tools
 - 🧑‍🏫 I also teach Python and programming logic (ES / EN)
 - 🌎 Spanish (native) · English (B2)
 
@@ -51,6 +53,7 @@ Most of my work is in **trading card game (TCG)** stores, where catalogs have th
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white">
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
 
@@ -61,32 +64,54 @@ Most of my work is in **trading card game (TCG)** stores, where catalogs have th
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 <img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white">
 <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white">
+<img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
-**Also**
+**AI, ML & Games**
 
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white">
-<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white">
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white">
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 What I've built
+
+### 🛍️ Shopify & E-commerce
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
 | **TCG Catalog Manager** 🔒 | Embedded Shopify app: bulk set import, card data enrichment, pricing, SEO, and inventory | React Router · Prisma · GraphQL Admin API · Railway |
-| **El Rincón del Duelista** 🔒 | Custom Online Store 2.0 theme with App Proxy sections, gamification, and 3D CSS effects | Liquid · JavaScript · Shopify CLI |
-| **RinconBot** 🔒 | Store chatbot backend: catalog search and live stock on Telegram, ready for WhatsApp | FastAPI · PostgreSQL · Redis · Docker |
-| **Price Automation** 🔒 | Pulls prices from TCGPlayer and YGOProDeck into Airtable with a 99.7% match rate | Python · Airtable API · SQLite |
-| [**Netdecker-SupremIA**](https://github.com/bacan25/Netdecker-SupremIA) | Computer vision and ML to recognize and analyze Yu-Gi-Oh! decks | TensorFlow · scikit-learn · XGBoost |
-| [**Al Ritmo de las Leyendas**](https://github.com/bacan25/al_ritmo_de_las_leyendas) | 2D music game with a custom audio-synced level engine. 🏆 Winner of Premio Huellas 2023 | Unity · C# |
+| **El Rincón del Duelista** 🔒 | Custom Online Store 2.0 theme with App Proxy sections, gamification, and 3D CSS effects | Liquid · JavaScript · Shopify CLI · GitHub Actions |
+| **Product Config App** 🔒 | Extension-only Shopify app and theme customization for a spirits store | Shopify API · Node.js · App Extensions |
+| **Price Automation** 🔒 | Pulls prices from TCGPlayer and YGOProDeck into Airtable with a 4-level fallback and a 99.7% match rate | Python · Airtable API · SQLite |
+| **Catalog Pipelines** 🔒 | Scrapers that turn TCGPlayer, Scryfall, YGOProDeck, and JustTCG data into Shopify-ready CSVs with metafields and currency conversion | Python · Selenium · pandas |
 
-> 🔒 = private client repository. Most of my professional Shopify work is under NDA, so the public repos here are personal and academic projects (games, machine learning, tools).
+### 🤖 Automation, Bots & AI
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **Asistente del Rincón** 🔒 | Local-LLM business assistant with tool calling, connected to Shopify, WhatsApp, Telegram, Instagram, Gmail, and Google Sheets | Python · Ollama (llama3.1) · Shopify API · Meta Cloud API |
+| **RinconBot** 🔒 | Store chatbot backend: catalog search and live stock on Telegram, with a core ready for WhatsApp | FastAPI · PostgreSQL · Redis · Docker · pytest |
+| **MotorCardCluster** 🔒 | Card data scraping engine with a scheduled job runner and a React dashboard | FastAPI · Selenium · SQLAlchemy · APScheduler · Docker |
+| **AI Investment Lab** 🔒 | Quantitative crypto trading engine with a deterministic risk engine, paper trading simulator, and a local RAG assistant | Python · Ollama · pandas |
+| [**ChambaGenerator**](https://github.com/bacan25) | Open-source AI job search framework built on Claude Code: evaluates postings, tailors CVs, writes cover letters | Python · Claude Code |
+
+### 🧠 Machine Learning & Games
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| [**Netdecker-SupremIA**](https://github.com/bacan25/Netdecker-SupremIA) | Computer vision and ML to recognize and analyze Yu-Gi-Oh! decks | TensorFlow · Keras · scikit-learn · XGBoost · PyGAD |
+| [**Al Ritmo de las Leyendas**](https://github.com/bacan25/al_ritmo_de_las_leyendas) | 2D music game with a custom audio-synced level engine. 🏆 Winner of Premio Huellas 2023 | Unity · C# |
+| **CUTLAM** 🔒 | Multiplayer card game with a dedicated single-match server, built to scale on Unity Gaming Services | Unity · C# · Client-server networking |
+
+> 🔒 = private repository. Most of my professional work is in private client repos, so the public ones here are personal and academic projects.
 
 ---
 
