@@ -90,6 +90,7 @@ Most of my work is in **TCG stores**, where catalogs have thousands of products 
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white">
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 <img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white">
 <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white">
@@ -160,9 +161,10 @@ flowchart LR
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
 | **Multipurpose Assistants** 🔒 | Assistants built with **OpenClaw** that attend customers over WhatsApp and Telegram | `OpenClaw` `Python` `Meta Cloud API` |
-| **Asistente del Rincón** 🔒 | Local-LLM business assistant with tool calling, wired into Shopify, WhatsApp, Telegram, Instagram, Gmail, and Google Sheets | `Python` `Ollama (llama3.1)` `Shopify API` |
+| **Asistente del Rincón** 🔒 | Local-LLM business assistant with tool calling, wired into Shopify, WhatsApp, Telegram, Instagram, Gmail, and Google Sheets. Runs on-premise and exposes its WhatsApp webhook through a Cloudflare Tunnel | `Python` `Ollama (llama3.1)` `Shopify API` `Cloudflare Tunnel` |
 | **RinconBot** 🔒 | Store chatbot backend: catalog search and live stock on Telegram, with a core ready for WhatsApp | `FastAPI` `PostgreSQL` `Redis` `Docker` `pytest` |
 | **MotorCardCluster** 🔒 | Card data scraping engine with a scheduled job runner and a React dashboard | `FastAPI` `Selenium` `SQLAlchemy` `APScheduler` |
+| **Magic Scraper API** 🔒 | Magic: The Gathering scraper behind a FastAPI service, published to the internet with a Cloudflare Tunnel. Outputs Shopify templates with metafields and images | `FastAPI` `Selenium` `Cloudflare Tunnel` |
 | **AI Investment Lab** 🔒 | Quantitative crypto trading engine with a deterministic risk engine, paper trading simulator, and a local RAG assistant | `Python` `Ollama` `pandas` |
 | **ChambaGenerator** | Open-source AI job search framework built on Claude Code: evaluates postings, tailors CVs, writes cover letters | `Python` `Claude Code` |
 
